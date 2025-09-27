@@ -5,7 +5,16 @@ import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import VideoShowcase from '@/components/VideoShowcase'
 import ScreenshotGallery from '@/components/ScreenshotGallery'
-import { gameConfig } from '@/config/gameConfig'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: `About ${gameConfig.game.name} - ${gameConfig.site.title}`,
+  description: `Learn about ${gameConfig.game.name}, the ${gameConfig.game.subtitle.toLowerCase()} with expanded mythological adventure and enhanced gameplay.`,
+  alternates: {
+    canonical: getCanonicalUrl('/about')
+  }
+}
 
 export default function AboutPage() {
   return (

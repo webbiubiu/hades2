@@ -4,7 +4,8 @@ import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
-import { gameConfig } from '@/config/gameConfig'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
+import type { Metadata } from 'next'
 
 interface BlogPostPageProps {
   params: {
@@ -17,6 +18,34 @@ export async function generateStaticParams() {
   return gameConfig.sampleContent.blogPosts.map((post) => ({
     slug: post.slug,
   }))
+}
+
+// 生成动态元数据
+export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const post = gameConfig.sampleContent.blogPosts.find(
+    (post) => post.slug === params.slug
+  )
+
+  if (!post) {
+    return {
+      title: 'Article Not Found',
+      description: 'The requested article could not be found.'
+    }
+  }
+
+  return {
+    title: `${post.title} - ${gameConfig.site.title}`,
+    description: post.excerpt,
+    alternates: {
+      canonical: getCanonicalUrl(`/blog/${post.slug}`)
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image],
+      url: getCanonicalUrl(`/blog/${post.slug}`)
+    }
+  }
 }
 
 export default function BlogPostPage({ params }: BlogPostPageProps) {

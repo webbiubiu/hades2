@@ -9,7 +9,16 @@ import VideoCard from '@/components/VideoCard'
 import FeatureCard from '@/components/FeatureCard'
 import CharacterCard from '@/components/CharacterCard'
 import VideoShowcase from '@/components/VideoShowcase'
-import { gameConfig, getYouTubeEmbed } from '@/config/gameConfig'
+import { gameConfig, getYouTubeEmbed, getCanonicalUrl } from '@/config/gameConfig'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: `${gameConfig.game.name} - ${gameConfig.site.title}`,
+  description: `${gameConfig.game.subtitle}. ${gameConfig.site.description}`,
+  alternates: {
+    canonical: getCanonicalUrl()
+  }
+}
 
 export default function Home() {
   return (
@@ -143,7 +152,10 @@ export default function Home() {
         <div className="content-container">
           <h2 className="gaming-section-title">Hades2 News</h2>
           <div className="gaming-grid gaming-grid-3">
-            {gameConfig.sampleContent.blogPosts.slice(0, 3).map((post, index) => (
+            {gameConfig.sampleContent.blogPosts
+              .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+              .slice(0, 3)
+              .map((post, index) => (
               <BlogCard
                 key={index}
                 title={post.title}
@@ -197,6 +209,58 @@ export default function Home() {
                 description={feature.description}
               />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="gaming-section gaming-section-darker">
+        <div className="content-container">
+          <h2 className="gaming-section-title">Frequently Asked Questions</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="gaming-grid gaming-grid-auto gap-6">
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">Is Hades2 in Early Access?</h3>
+                <p className="gaming-card-content">
+                  No, Hades2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features.
+                </p>
+              </div>
+
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">When does Hades2 come out?</h3>
+                <p className="gaming-card-content">
+                  Hades2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms.
+                </p>
+              </div>
+
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">How to use Change of Fate in Hades2?</h3>
+                <p className="gaming-card-content">
+                  Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using <strong>Fate Fragments</strong>. Select different paths to modify upcoming encounters, boons, or rewards. It's essential for strategic planning in challenging runs.
+                </p>
+              </div>
+
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">How to get Bronze in Hades2?</h3>
+                <p className="gaming-card-content">
+                  <strong>Bronze</strong> is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld's mining areas and look for glowing bronze deposits. It's used for weapon upgrades and crafting.
+                </p>
+              </div>
+
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">Where to get Bronze in Hades2?</h3>
+                <p className="gaming-card-content">
+                  Bronze can be found in <strong>Erebus chambers</strong>, <strong>Mining locations</strong> in the Underworld, and as drops from <strong>Armored enemies</strong>. The Crossroads also has mining spots. Use your pickaxe tool to extract bronze from ore veins.
+                </p>
+              </div>
+
+              <div className="gaming-card">
+                <h3 className="gaming-card-title">How to get Dark in Hades2?</h3>
+                <p className="gaming-card-content">
+                  <strong>Psyche</strong> (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It's the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

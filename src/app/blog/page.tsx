@@ -4,7 +4,16 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import BlogCard from '@/components/BlogCard'
-import { gameConfig } from '@/config/gameConfig'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: `${gameConfig.game.name} News & Guides - ${gameConfig.site.title}`,
+  description: `Latest ${gameConfig.game.name} news, guides, tips, and updates. Stay informed about the immortal rogue-like adventure.`,
+  alternates: {
+    canonical: getCanonicalUrl('/blog')
+  }
+}
 
 export default function BlogPage() {
   return (

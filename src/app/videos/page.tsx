@@ -1,10 +1,38 @@
 'use client'
 
+import { useEffect } from 'react'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 
 export default function VideosPage() {
+  // 设置SEO元数据
+  useEffect(() => {
+    document.title = `${gameConfig.game.name} Videos - ${gameConfig.site.title}`
+    
+    // 设置或更新description meta标签
+    let descriptionMeta = document.querySelector('meta[name="description"]')
+    if (descriptionMeta) {
+      descriptionMeta.setAttribute('content', `Watch the latest ${gameConfig.game.name} videos including gameplay trailers, reviews, and guides.`)
+    } else {
+      descriptionMeta = document.createElement('meta')
+      descriptionMeta.setAttribute('name', 'description')
+      descriptionMeta.setAttribute('content', `Watch the latest ${gameConfig.game.name} videos including gameplay trailers, reviews, and guides.`)
+      document.head.appendChild(descriptionMeta)
+    }
+    
+    // 设置或更新canonical link
+    let canonicalLink = document.querySelector('link[rel="canonical"]')
+    if (canonicalLink) {
+      canonicalLink.setAttribute('href', getCanonicalUrl('/videos'))
+    } else {
+      canonicalLink = document.createElement('link')
+      canonicalLink.setAttribute('rel', 'canonical')
+      canonicalLink.setAttribute('href', getCanonicalUrl('/videos'))
+      document.head.appendChild(canonicalLink)
+    }
+  }, [])
   // Hades2视频数据
   const videos = [
     {

@@ -3,6 +3,22 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Hades2 Smashes Records with Phenomenal Full Release Launch - Hades2 News & Guides',
+  description: 'Hades2 officially exits early access and immediately breaks its predecessor\'s Steam concurrent player records, drawing over 60,000 players within the first hour.',
+  alternates: {
+    canonical: getCanonicalUrl('/blog/hades-2-full-release-record-breaking-launch')
+  },
+  openGraph: {
+    title: 'Hades2 Smashes Records with Phenomenal Full Release Launch',
+    description: 'Hades2 officially exits early access and immediately breaks its predecessor\'s Steam concurrent player records.',
+    images: ['/images/H2_Olympic_NoLogo_4K.jpg'],
+    url: getCanonicalUrl('/blog/hades-2-full-release-record-breaking-launch')
+  }
+}
 
 export default function BlogPost() {
   return (

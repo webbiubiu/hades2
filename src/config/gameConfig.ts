@@ -2,6 +2,14 @@
 // 修改这个文件来快速更换不同游戏的主题
 
 export const gameConfig = {
+  // 站点配置
+  site: {
+    title: "Hades2 News & Guides",
+    description: "Your ultimate source for Hades2 news, guides, and reviews",
+    domain: "hades2.org",
+    url: "https://hades2.org"
+  },
+
   // 基本信息
   game: {
     name: "Hades II",
@@ -265,6 +273,12 @@ export const gameConfig = {
 // 辅助函数 - 生成 YouTube 嵌入链接
 export const getYouTubeEmbed = (videoId: string) => {
   return `https://www.youtube.com/embed/${videoId}`
+}
+
+// 辅助函数 - 生成 Canonical URL
+export const getCanonicalUrl = (path: string = '') => {
+  const cleanPath = path.startsWith('/') ? path : `/${path}`
+  return `${gameConfig.site.url}${cleanPath}`
 }
 
 // 辅助函数 - 获取主题色彩
