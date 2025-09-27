@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
-import PrivateVideoShowcase from '@/components/PrivateVideoShowcase'
+import VideoShowcase from '@/components/VideoShowcase'
 import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
       </div>
 
       {/* Video Showcase */}
-      <PrivateVideoShowcase 
+      <VideoShowcase 
         title="Hades2 - v1.0 Gameplay Showcase"
         description="Watch the official gameplay showcase and see the combat system in action"
         videoId="-SnaCUsUF3E"

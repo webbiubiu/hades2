@@ -5,10 +5,10 @@ import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import GameInfoCard from '@/components/GameInfoCard'
 import BlogCard from '@/components/BlogCard'
-import PrivateVideoCard from '@/components/PrivateVideoCard'
+import VideoCard from '@/components/VideoCard'
 import FeatureCard from '@/components/FeatureCard'
 import CharacterCard from '@/components/CharacterCard'
-import PrivateVideoShowcase from '@/components/PrivateVideoShowcase'
+import VideoShowcase from '@/components/VideoShowcase'
 import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       {/* Video Showcase Section */}
-      <PrivateVideoShowcase 
+      <VideoShowcase 
         title="Hades2 – v1.0 Launch Trailer"
         description="Experience the epic return to the Underworld in this official launch trailer"
         videoId="U8lJRcUeEMs"
@@ -181,7 +181,7 @@ export default function Home() {
           <h2 className="gaming-section-title">Latest Videos</h2>
           <div className="gaming-grid gaming-grid-3">
             {gameConfig.sampleContent.videos.map((video, index) => (
-              <PrivateVideoCard
+              <VideoCard
                 key={index}
                 title={video.title}
                 description={video.description}
