@@ -74,8 +74,32 @@ export default function Home() {
         videoId="U8lJRcUeEMs"
       />
 
-      {/* Game Introduction Section */}
+      {/* Character Showcase */}
       <section className="gaming-section gaming-section-darker">
+        <div className="content-container">
+          <h2 className="gaming-section-title">Meet the Characters</h2>
+          <div className="gaming-grid gaming-grid-auto gap-6">
+            {gameConfig.characters.slice(0, 6).map((character, index) => (
+              <CharacterCard
+                key={index}
+                name={character.name}
+                title={character.title}
+                description={character.description}
+                image={character.image}
+                fullImage={character.fullImage}
+              />
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <p className="text-gray-300 mb-4">
+              Discover the expanded cast of gods, heroes, and mythological figures in Hades2
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Game Introduction Section */}
+      <section className="gaming-section gaming-section-dark">
         <div className="content-container">
           <h2 className="gaming-section-title">{gameConfig.game.introduction.title}</h2>
           <div className="gaming-grid gaming-grid-2 gap-6">
@@ -125,25 +149,6 @@ export default function Home() {
             <GameInfoCard title="Genre" content={gameConfig.game.genre} />
             <GameInfoCard title="Price" content={gameConfig.game.price} />
             <GameInfoCard title="Languages" content="English, Japanese, Chinese, Korean, French, Spanish, German" />
-          </div>
-        </div>
-      </section>
-
-      {/* Character Showcase */}
-      <section className="gaming-section gaming-section-darker">
-        <div className="content-container">
-          <h2 className="gaming-section-title">Meet the Characters</h2>
-          <div className="gaming-grid gaming-grid-auto gap-6">
-            {gameConfig.characters.map((character, index) => (
-              <CharacterCard
-                key={index}
-                name={character.name}
-                title={character.title}
-                description={character.description}
-                image={character.image}
-                fullImage={character.fullImage}
-              />
-            ))}
           </div>
         </div>
       </section>
