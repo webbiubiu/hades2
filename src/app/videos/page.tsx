@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
+import PrivateVideoCard from '@/components/PrivateVideoCard'
 import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 
 export default function VideosPage() {
@@ -130,18 +131,15 @@ export default function VideosPage() {
             {videos.map(video => (
               <div key={video.id} className="video-card" data-category={video.category}>
                 <div className="video-thumbnail">
-                  <iframe 
-                    src={`https://www.youtube.com/embed/${video.id}`}
+                  <PrivateVideoCard
                     title={video.title}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    description={video.description}
+                    embedId={video.id}
+                    thumbnailQuality="hqdefault"
                   />
                 </div>
                 <div className="video-info">
                   <span className="video-category">{video.category}</span>
-                  <h3>{video.title}</h3>
-                  <p>{video.description}</p>
                   <div className="video-meta">
                     <span className="video-duration">{video.duration}</span>
                     <span className="video-views">{video.views}</span>

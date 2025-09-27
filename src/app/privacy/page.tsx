@@ -78,7 +78,12 @@ export default function PrivacyPolicyPage() {
 
             <h3>YouTube Embedded Videos</h3>
             <p>
-              Our website embeds videos from YouTube, which is operated by Google. When you watch embedded YouTube videos, YouTube may collect information about your viewing behavior. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">YouTube&apos;s Privacy Policy</a> for more information.
+              Our website displays YouTube video thumbnails and provides links to YouTube content. Videos are only loaded from YouTube when you explicitly click to play them. We use YouTube&apos;s privacy-enhanced mode (youtube-nocookie.com) which doesn&apos;t store cookies unless you play a video. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">YouTube&apos;s Privacy Policy</a> for more information about how YouTube handles your data when you interact with their videos.
+            </p>
+            
+            <h3>Third-Party Cookie Protection</h3>
+            <p>
+              We&apos;ve implemented privacy-friendly video embedding to minimize third-party cookies. YouTube videos only load when you choose to play them, giving you control over when your data is shared with YouTube. We display static video thumbnails until you decide to watch a video.
             </p>
 
             <h2>Data Retention</h2>
