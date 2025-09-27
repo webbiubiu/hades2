@@ -98,6 +98,23 @@ export default function PrivacyPolicyPage() {
               <li><strong>Objection:</strong> You can object to processing of your information</li>
             </ul>
 
+            <h2>GDPR Rights (European Users)</h2>
+            
+            <p>
+              If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):
+            </p>
+            <ul>
+              <li><strong>Legal Basis:</strong> We process your data based on legitimate interests for website analytics and improvement</li>
+              <li><strong>Right to Withdraw:</strong> You can withdraw consent for cookies and tracking at any time</li>
+              <li><strong>Data Controller:</strong> {gameConfig.site.title} is the data controller for your personal information</li>
+              <li><strong>Contact:</strong> For GDPR-related requests, please contact us through our website</li>
+              <li><strong>Supervisory Authority:</strong> You have the right to lodge a complaint with your local data protection authority</li>
+            </ul>
+            
+            <p>
+              <strong>Cookie Notice:</strong> This website uses Google Analytics cookies to understand how visitors use our site. By continuing to browse, you consent to our use of cookies. You can disable cookies in your browser settings if you prefer.
+            </p>
+
             <h2>Children&apos;s Privacy</h2>
             
             <p>
