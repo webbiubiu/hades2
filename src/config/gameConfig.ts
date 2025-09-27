@@ -57,8 +57,8 @@ export const gameConfig = {
       name: "Melinoë",
       title: "Princess of the Underworld",
       description: "The immortal daughter of Hades, wielding shadow and lunar magic to fight against Chronos and save her family.",
-      image: "/images/Hades2_Melinoë_head.webp",
-      fullImage: "/images/Hades2_Melinoë.webp"
+      image: "/images/Hades2_Melino_head.webp",
+      fullImage: "/images/Hades2_Melino.webp"
     },
     {
       name: "Nemesis",
