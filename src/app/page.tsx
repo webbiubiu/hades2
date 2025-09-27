@@ -50,7 +50,7 @@ export default function Home() {
                 href="/about" 
                 className="gaming-btn gaming-btn-secondary"
               >
-                Learn More
+                Learn More About Hades2
               </Link>
             </div>
           </div>
