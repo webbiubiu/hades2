@@ -32,18 +32,6 @@ export const gameConfig = {
     }
   },
 
-  // 网站信息
-  site: {
-    title: "Hades2 News & Guides",
-    description: "Your ultimate source for Hades2 news, guides, and updates from the underworld.",
-    domain: "hades2.org", // 用于SEO
-    social: {
-      twitter: "@hades2news",
-      discord: "discord.gg/hades2",
-      youtube: "channel/hades2"
-    }
-  },
-
   // 主题颜色 (对应 Tailwind 配置中的 primary 颜色)
   theme: {
     primary: "#ff6b35", // 主色调 - 橙红色
