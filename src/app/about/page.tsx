@@ -50,7 +50,7 @@ export default function AboutPage() {
             
             <div className="text-center my-8">
               <Image
-                src="/images/hades2_apr24_01.jpg"
+                src="/images/hades2_apr24_01.webp"
                 alt="Hades2 Combat"
                 width={800}
                 height={450}
@@ -74,14 +74,14 @@ export default function AboutPage() {
 
             <div className="grid grid-cols-2 gap-4 my-8">
               <Image
-                src="/images/hades2_apr24_02.jpg"
+                src="/images/hades2_apr24_02.webp"
                 alt="Underworld Environment"
                 width={400}
                 height={225}
                 className="rounded-lg shadow-lg"
               />
               <Image
-                src="/images/hades2_apr24_03.jpg"
+                src="/images/hades2_apr24_03.webp"
                 alt="Magic System"
                 width={400}
                 height={225}
@@ -118,7 +118,7 @@ export default function AboutPage() {
 
             <div className="text-center my-8">
               <Image
-                src="/images/hades2_apr24_04.jpg"
+                src="/images/hades2_apr24_04.webp"
                 alt="Surface World"
                 width={700}
                 height={394}

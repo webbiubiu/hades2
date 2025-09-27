@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hades2 Smashes Records with Phenomenal Full Release Launch',
     description: 'Hades2 officially exits early access and immediately breaks its predecessor\'s Steam concurrent player records.',
-    images: ['/images/H2_Olympic_NoLogo_4K.jpg'],
+    images: ['/images/H2_Olympic_NoLogo_4K.webp'],
     url: getCanonicalUrl('/blog/hades-2-full-release-record-breaking-launch')
   }
 }
@@ -42,7 +42,7 @@ export default function BlogPost() {
 
         <div className="article-image">
           <Image 
-            src="/images/H2_Olympic_NoLogo_4K.jpg"
+            src="/images/H2_Olympic_NoLogo_4K.webp"
             alt="Hades2 Full Release Celebration"
             width={800}
             height={450}
@@ -110,7 +110,7 @@ export default function BlogPost() {
           <div className="related-grid">
             <article className="related-card">
               <Image 
-                src="/images/hades2_apr24_01.jpg" 
+                src="/images/hades2_apr24_01.webp" 
                 alt="Hades2 Launch Guide"
                 width={300}
                 height={200}
@@ -124,7 +124,7 @@ export default function BlogPost() {
             
             <article className="related-card">
               <Image 
-                src="/images/hades2_apr24_05.jpg" 
+                src="/images/hades2_apr24_05.webp" 
                 alt="Witchcraft Guide"
                 width={300}
                 height={200}
@@ -138,7 +138,7 @@ export default function BlogPost() {
             
             <article className="related-card">
               <Image 
-                src="/images/hades2_apr24_07.jpg" 
+                src="/images/hades2_apr24_07.webp" 
                 alt="Weapons Guide"
                 width={300}
                 height={200}

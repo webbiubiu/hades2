@@ -6,7 +6,7 @@
 .favicon-h {
   width: 32px;
   height: 32px;
-  background-image: url('/images/Hades2_Logo.png');
+  background-image: url('/images/Hades2_Logo.webp');
   background-size: 200px auto; /* 调整大小使H部分合适 */
   background-position: -10px -20px; /* 调整位置以显示H */
   background-repeat: no-repeat;
