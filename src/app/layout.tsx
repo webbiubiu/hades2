@@ -58,6 +58,7 @@ export default function RootLayout({
         <link rel="icon" href="/h-mystical.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/h-mystical.svg" />
         <meta name="theme-color" content="#22c55e" />
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </head>
       <body>
         <WebVitals />
