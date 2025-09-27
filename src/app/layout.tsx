@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { gameConfig } from "@/config/gameConfig";
 import WebVitals from "@/components/WebVitals";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+
+const GA_MEASUREMENT_ID = 'G-LM2X6YL45H';
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NODE_ENV === 'production' 
@@ -61,6 +64,7 @@ export default function RootLayout({
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </head>
       <body>
+        <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_ID} />
         <WebVitals />
         {children}
       </body>
