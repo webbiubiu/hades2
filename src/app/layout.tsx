@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { gameConfig } from "@/config/gameConfig";
+import WebVitals from "@/components/WebVitals";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NODE_ENV === 'production' 
@@ -59,6 +60,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#22c55e" />
       </head>
       <body>
+        <WebVitals />
         {children}
       </body>
     </html>

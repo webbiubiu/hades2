@@ -61,6 +61,7 @@ export default function Home() {
               width={350}
               height={280}
               priority
+              sizes="(max-width: 768px) 280px, (max-width: 1200px) 350px, 400px"
             />
           </div>
         </div>
