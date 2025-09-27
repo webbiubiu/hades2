@@ -213,6 +213,67 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ JSON-LD for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is Hades2 in Early Access?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, Hades2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When does Hades2 come out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hades2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How to use Change of Fate in Hades2?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using Fate Fragments. Select different paths to modify upcoming encounters, boons, or rewards. It's essential for strategic planning in challenging runs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How to get Bronze in Hades2?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bronze is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld's mining areas and look for glowing bronze deposits. It's used for weapon upgrades and crafting."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where to get Bronze in Hades2?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bronze can be found in Erebus chambers, Mining locations in the Underworld, and as drops from Armored enemies. The Crossroads also has mining spots. Use your pickaxe tool to extract bronze from ore veins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How to get Dark in Hades2?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Psyche (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It's the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
       {/* FAQ Section */}
       <section className="gaming-section gaming-section-darker">
         <div className="content-container">
