@@ -9,7 +9,7 @@ import VideoCard from '@/components/VideoCard'
 import FeatureCard from '@/components/FeatureCard'
 import CharacterCard from '@/components/CharacterCard'
 import VideoShowcase from '@/components/VideoShowcase'
-import { gameConfig, getYouTubeEmbed, getCanonicalUrl } from '@/config/gameConfig'
+import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -90,7 +90,7 @@ export default function Home() {
               <div className="feature-icon mb-4">⚔️</div>
               <h3 className="gaming-card-title">Enhanced Gameplay</h3>
               <p className="gaming-card-content">
-                Building on the original's strengths, Hades2 introduces an expanded world of Greek mythology, featuring <span className="text-orange-500 font-semibold">Melinoë</span> as the lead protagonist. Players will tackle the Titan of Time, explore new areas, and unlock dozens of story events.
+                Building on the original&apos;s strengths, Hades2 introduces an expanded world of Greek mythology, featuring <span className="text-orange-500 font-semibold">Melinoë</span> as the lead protagonist. Players will tackle the Titan of Time, explore new areas, and unlock dozens of story events.
               </p>
             </div>
 
@@ -236,14 +236,14 @@ export default function Home() {
               <div className="gaming-card">
                 <h3 className="gaming-card-title">How to use Change of Fate in Hades2?</h3>
                 <p className="gaming-card-content">
-                  Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using <strong>Fate Fragments</strong>. Select different paths to modify upcoming encounters, boons, or rewards. It's essential for strategic planning in challenging runs.
+                  Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using <strong>Fate Fragments</strong>. Select different paths to modify upcoming encounters, boons, or rewards. It&apos;s essential for strategic planning in challenging runs.
                 </p>
               </div>
 
               <div className="gaming-card">
                 <h3 className="gaming-card-title">How to get Bronze in Hades2?</h3>
                 <p className="gaming-card-content">
-                  <strong>Bronze</strong> is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld's mining areas and look for glowing bronze deposits. It's used for weapon upgrades and crafting.
+                  <strong>Bronze</strong> is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld&apos;s mining areas and look for glowing bronze deposits. It&apos;s used for weapon upgrades and crafting.
                 </p>
               </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
               <div className="gaming-card">
                 <h3 className="gaming-card-title">How to get Dark in Hades2?</h3>
                 <p className="gaming-card-content">
-                  <strong>Psyche</strong> (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It's the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts.
+                  <strong>Psyche</strong> (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It&apos;s the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts.
                 </p>
               </div>
             </div>

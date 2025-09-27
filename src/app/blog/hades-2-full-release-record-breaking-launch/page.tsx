@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
-import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
+import { getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -75,11 +75,11 @@ export default function BlogPost() {
             <h2>Community Response and Critical Reception</h2>
 
             <p>
-              The gaming community's response has been overwhelmingly positive, with players praising the game's refined mechanics, expanded narrative scope, and the seamless transition from early access to full release. The concurrent player surge reflects not just curiosity but sustained engagement, as players dive deep into Melinoë's quest to save her family from Chronos.
+              The gaming community&apos;s response has been overwhelmingly positive, with players praising the game&apos;s refined mechanics, expanded narrative scope, and the seamless transition from early access to full release. The concurrent player surge reflects not just curiosity but sustained engagement, as players dive deep into Melinoë&apos;s quest to save her family from Chronos.
             </p>
 
             <p>
-              Social media platforms have been flooded with gameplay clips, character discussions, and strategy sharing, creating a vibrant community ecosystem around the launch. The game's accessibility improvements and enhanced features have been particularly well-received by both newcomers and series veterans.
+              Social media platforms have been flooded with gameplay clips, character discussions, and strategy sharing, creating a vibrant community ecosystem around the launch. The game&apos;s accessibility improvements and enhanced features have been particularly well-received by both newcomers and series veterans.
             </p>
 
             <h3>Looking Forward</h3>
@@ -89,7 +89,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              The success of Hades2's full release launch represents more than just impressive numbers—it demonstrates the power of thoughtful game development, community engagement, and the enduring appeal of well-crafted roguelike experiences. As players continue to discover the depths of what this expanded adventure has to offer, one thing is certain: Hades2 has firmly established itself as one of 2025's most significant gaming achievements.
+              The success of Hades2&apos;s full release launch represents more than just impressive numbers—it demonstrates the power of thoughtful game development, community engagement, and the enduring appeal of well-crafted roguelike experiences. As players continue to discover the depths of what this expanded adventure has to offer, one thing is certain: Hades2 has firmly established itself as one of 2025&apos;s most significant gaming achievements.
             </p>
           </div>
         </div>

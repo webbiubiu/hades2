@@ -78,7 +78,7 @@ export default function PrivacyPolicyPage() {
 
             <h3>YouTube Embedded Videos</h3>
             <p>
-              Our website embeds videos from YouTube, which is operated by Google. When you watch embedded YouTube videos, YouTube may collect information about your viewing behavior. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">YouTube's Privacy Policy</a> for more information.
+              Our website embeds videos from YouTube, which is operated by Google. When you watch embedded YouTube videos, YouTube may collect information about your viewing behavior. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">YouTube&apos;s Privacy Policy</a> for more information.
             </p>
 
             <h2>Data Retention</h2>
@@ -119,7 +119,7 @@ export default function PrivacyPolicyPage() {
             <h2>Updates to This Policy</h2>
             
             <p>
-              We may update this privacy policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will post the updated policy on this page and update the "Last updated" date above.
+              We may update this privacy policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will post the updated policy on this page and update the &ldquo;Last updated&rdquo; date above.
             </p>
 
             <h2>Contact Information</h2>

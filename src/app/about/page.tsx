@@ -132,7 +132,7 @@ export default function AboutPage() {
               Major gaming publications have consistently highlighted the game&apos;s exceptional quality:
             </p>
             <ul>
-              <li>GameSpot praised it as "one of the finest roguelike experiences ever created"</li>
+              <li>GameSpot praised it as &ldquo;one of the finest roguelike experiences ever created&rdquo;</li>
               <li>Eurogamer celebrated its magical combat system and narrative depth</li>
               <li>Multiple publications have noted its successful evolution of the original formula</li>
             </ul>
