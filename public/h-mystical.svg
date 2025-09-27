@@ -1,0 +1,57 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background with mystical atmosphere -->
+  <rect width="32" height="32" rx="4" fill="url(#darkBg)"/>
+  
+  <!-- Bold H design with mystical green theme -->
+  <g transform="translate(4, 4)">
+    <!-- Left thick vertical bar of H with mystical edges -->
+    <path d="M1 0 L0 1 L1 2 L1 10 L0 11 L1 12 L1 22 L0 23 L1 24 L6 24 L7 23 L6 22 L6 12 L7 11 L6 10 L6 2 L7 1 L6 0 Z" fill="url(#mysticGreen)" stroke="#2d5016" stroke-width="0.5"/>
+    
+    <!-- Right thick vertical bar of H with mystical edges -->
+    <path d="M17 0 L16 1 L17 2 L17 10 L16 11 L17 12 L17 22 L16 23 L17 24 L22 24 L23 23 L22 22 L22 12 L23 11 L22 10 L22 2 L23 1 L22 0 Z" fill="url(#mysticGreen)" stroke="#2d5016" stroke-width="0.5"/>
+    
+    <!-- Thick horizontal crossbar with mystical design -->
+    <path d="M6 10 L8 9 L10 10 L12 9 L14 10 L16 9 L17 10 L17 14 L16 15 L14 14 L12 15 L10 14 L8 15 L6 14 Z" fill="url(#mysticGreen)" stroke="#2d5016" stroke-width="0.5"/>
+    
+    <!-- Mystical thorns/spikes at corners -->
+    <polygon points="0,0 3,0 1.5,-2 6,0 4.5,-2.5" fill="#7dd87d" stroke="#4ade80" stroke-width="0.3"/>
+    <polygon points="17,0 20,0 18.5,-2 23,0 21.5,-2.5" fill="#7dd87d" stroke="#4ade80" stroke-width="0.3"/>
+    <polygon points="0,24 3,24 1.5,26 6,24 4.5,26.5" fill="#7dd87d" stroke="#4ade80" stroke-width="0.3"/>
+    <polygon points="17,24 20,24 18.5,26 23,24 21.5,26.5" fill="#7dd87d" stroke="#4ade80" stroke-width="0.3"/>
+    
+    <!-- Central mystical symbol -->
+    <circle cx="11.5" cy="12" r="2.5" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+    <polygon points="11.5,10 13,12 11.5,14 10,12" fill="#7dd87d"/>
+    <circle cx="11.5" cy="12" r="0.8" fill="#4ade80"/>
+  </g>
+  
+  <!-- Mystical glow border -->
+  <rect x="1" y="1" width="30" height="30" rx="3" stroke="url(#glowGradient)" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Definitions -->
+  <defs>
+    <!-- Dark mystical background -->
+    <radialGradient id="darkBg" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" style="stop-color:#2a4a2a"/>
+      <stop offset="40%" style="stop-color:#1a3a1a"/>
+      <stop offset="70%" style="stop-color:#0f2f0f"/>
+      <stop offset="100%" style="stop-color:#050505"/>
+    </radialGradient>
+    
+    <!-- Mystical green gradient for letters -->
+    <linearGradient id="mysticGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7dd87d"/>
+      <stop offset="25%" style="stop-color:#4ade80"/>
+      <stop offset="50%" style="stop-color:#22c55e"/>
+      <stop offset="75%" style="stop-color:#16a34a"/>
+      <stop offset="100%" style="stop-color:#15803d"/>
+    </linearGradient>
+    
+    <!-- Mystical glow effect -->
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80"/>
+      <stop offset="50%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+  </defs>
+</svg>
