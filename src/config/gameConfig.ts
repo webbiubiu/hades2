@@ -54,70 +54,70 @@ export const gameConfig = {
   // 角色展示
   characters: [
     {
-      name: "Melinoë",
+      name: "hades2-Melinoë",
       title: "Princess of the Underworld",
       description: "The immortal daughter of Hades, wielding shadow and lunar magic to fight against Chronos and save her family.",
       image: "/images/Hades2_Melino_head.webp",
       fullImage: "/images/Hades2_Melino.webp"
     },
     {
-      name: "Nemesis",
+      name: "hades2-Nemesis",
       title: "Goddess of Retribution",
       description: "A fierce ally in the fight against Chronos, bringing divine justice and vengeance to those who deserve it.",
       image: "/images/Hades2_Nemesis_head.webp",
       fullImage: "/images/Hades2_Nemesis.webp"
     },
     {
-      name: "Hecate",
+      name: "hades2-Hecate",
       title: "Goddess of Magic",
       description: "Melinoë's mentor in witchcraft, teaching her the ancient arts of shadow magic and mystical incantations.",
       image: "/images/Hades2_Hecate_head.webp",
       fullImage: "/images/Hades2_Hecate.webp"
     },
     {
-      name: "Artemis",
+      name: "hades2-Artemis",
       title: "Goddess of the Hunt",
       description: "The divine huntress who aids Melinoë with precise archery skills and knowledge of the wilderness.",
       image: "/images/Hades2_Artemis_head.webp",
       fullImage: "/images/Hades2_Artemis.webp"
     },
     {
-      name: "Charon",
+      name: "hades2-Charon",
       title: "Ferryman of the Styx",
       description: "The enigmatic boatman who transports souls across the river Styx, offering guidance and mysterious aid.",
       image: "/images/Hades2_Charon_head.webp",
       fullImage: "/images/Hades2_Charon.webp"
     },
     {
-      name: "Eris",
+      name: "hades2-Eris",
       title: "Goddess of Strife",
       description: "The personification of discord and chaos, whose powers can turn the tide of any battle.",
       image: "/images/Hades2_Eris_head.webp",
       fullImage: "/images/Hades2_Eris.webp"
     },
     {
-      name: "Moros",
+      name: "hades2-Moros",
       title: "God of Doom",
       description: "The embodiment of impending doom and inevitable fate, wielding dark powers from the depths of destiny.",
       image: "/images/Hades2_Moros_head.webp",
       fullImage: "/images/Hades2_Moros.webp"
     },
     {
-      name: "Odysseus",
+      name: "hades2-Odysseus",
       title: "Hero of the Odyssey",
       description: "The legendary Greek hero known for his cunning and strategic mind, offering wisdom from his epic journey.",
       image: "/images/Hades2_Odysseus_head.webp",
       fullImage: "/images/Hades2_Odysseu.webp"
     },
     {
-      name: "Schelemeus",
+      name: "hades2-Schelemeus",
       title: "Ancient Warrior",
       description: "A mysterious figure from the depths of the underworld, wielding ancient combat techniques and forgotten magic.",
       image: "/images/Hades2_Schelemeus_head.webp",
       fullImage: "/images/Hades2_Schelemeus.webp"
     },
     {
-      name: "Selene",
+      name: "hades2-Selene",
       title: "Goddess of the Moon",
       description: "The luminous moon goddess who governs the night sky and enhances Melinoë's lunar magical abilities.",
       image: "/images/Hades2_Selene_head.webp",
