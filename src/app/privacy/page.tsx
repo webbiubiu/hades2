@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Objection:</strong> You can object to processing of your information</li>
             </ul>
 
-            <h2>Children's Privacy</h2>
+            <h2>Children&apos;s Privacy</h2>
             
             <p>
               Our website is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us.

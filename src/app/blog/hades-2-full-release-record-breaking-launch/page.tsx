@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h1>Hades2 Smashes Records with Phenomenal Full Release Launch</h1>
           
           <p className="article-excerpt">
-            Hades2 officially exits early access and immediately breaks its predecessor's Steam concurrent player records, drawing over 60,000 players within the first hour.
+            Hades2 officially exits early access and immediately breaks its predecessor&apos;s Steam concurrent player records, drawing over 60,000 players within the first hour.
           </p>
         </header>
 
@@ -59,7 +59,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              Within just the first hour of availability, more than <strong>60,000 players</strong> were actively exploring the expanded Underworld on Steam alone. This remarkable achievement not only surpassed the original Hades' peak concurrent player count but did so with stunning speed, showcasing the incredible anticipation that had been building throughout the early access period.
+              Within just the first hour of availability, more than <strong>60,000 players</strong> were actively exploring the expanded Underworld on Steam alone. This remarkable achievement not only surpassed the original Hades&apos; peak concurrent player count but did so with stunning speed, showcasing the incredible anticipation that had been building throughout the early access period.
             </p>
 
             <h2>Multi-Platform Success Story</h2>
@@ -131,7 +131,7 @@ export default function BlogPost() {
               />
               <h4>
                 <Link href="/blog/melinoe-witchcraft-guide">
-                  Mastering Melinoë's Magic: A Complete Witchcraft Guide
+                  Mastering Melinoë&apos;s Magic: A Complete Witchcraft Guide
                 </Link>
               </h4>
             </article>
