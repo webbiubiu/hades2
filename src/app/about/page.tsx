@@ -1,10 +1,8 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import BackToTop from '@/components/BackToTop'
 import VideoShowcase from '@/components/VideoShowcase'
-import ScreenshotGallery from '@/components/ScreenshotGallery'
 import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
@@ -114,7 +112,7 @@ export default function AboutPage() {
             <p>
               Journey through breathtaking environments that extend far beyond the traditional Underworld. 
               Explore mysterious surface realms, encounter legendary figures from Greek mythology, and uncover 
-              ancient secrets hidden within beautifully crafted landscapes that showcase Supergiant Games' 
+              ancient secrets hidden within beautifully crafted landscapes that showcase Supergiant Games&apos; 
               signature artistic vision.
             </p>
 
@@ -131,7 +129,7 @@ export default function AboutPage() {
             <h3>Critical Acclaim</h3>
             <p>
               Since its Early Access launch, Hades2 has garnered widespread praise from critics and players alike. 
-              Major gaming publications have consistently highlighted the game's exceptional quality:
+              Major gaming publications have consistently highlighted the game&apos;s exceptional quality:
             </p>
             <ul>
               <li>GameSpot praised it as "one of the finest roguelike experiences ever created"</li>
@@ -142,7 +140,7 @@ export default function AboutPage() {
             <h3>Technical Excellence</h3>
             <p>
               Hades2 delivers a premium gaming experience across all supported platforms. The full v1.0 release 
-              includes cross-save functionality, ensuring your progress follows you whether you're playing on PC 
+              includes cross-save functionality, ensuring your progress follows you whether you&apos;re playing on PC 
               or Nintendo Switch family consoles. The game runs at smooth 60fps on standard hardware while 
               supporting enhanced performance modes on newer systems.
             </p>
@@ -156,7 +154,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              Whether you're a veteran of the original Hades or new to the series, Hades2 offers an 
+              Whether you&apos;re a veteran of the original Hades or new to the series, Hades2 offers an 
               unforgettable journey through Greek mythology that seamlessly blends action, strategy, and 
               storytelling into one extraordinary gaming experience.
             </p>
@@ -229,7 +227,7 @@ export default function AboutPage() {
               <div className="timeline-date">December 8, 2022</div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Official Announcement</h3>
-                <p>Hades2 revealed at The Game Awards 2022, marking Supergiant Games' first-ever sequel announcement.</p>
+                <p>Hades2 revealed at The Game Awards 2022, marking Supergiant Games&apos; first-ever sequel announcement.</p>
               </div>
             </div>
           </div>

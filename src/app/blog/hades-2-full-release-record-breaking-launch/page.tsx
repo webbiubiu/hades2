@@ -65,11 +65,11 @@ export default function BlogPost() {
             <h2>Multi-Platform Success Story</h2>
 
             <p>
-              The launch wasn't limited to PC players. Hades2 made its debut simultaneously on Steam and the highly anticipated Nintendo Switch 2, marking one of the platform's most significant launch titles. While concrete sales figures for the Switch 2 version won't be available until official reports are released, the early indicators suggest strong adoption across both platforms.
+              The launch wasn&apos;t limited to PC players. Hades2 made its debut simultaneously on Steam and the highly anticipated Nintendo Switch 2, marking one of the platform&apos;s most significant launch titles. While concrete sales figures for the Switch 2 version won&apos;t be available until official reports are released, the early indicators suggest strong adoption across both platforms.
             </p>
 
             <p>
-              The strategic decision to launch on both platforms simultaneously demonstrates Supergiant Games' commitment to reaching the broadest possible audience. The original Hades found tremendous success on Nintendo Switch, and early signs suggest Hades2 is following a similar trajectory with even greater momentum.
+              The strategic decision to launch on both platforms simultaneously demonstrates Supergiant Games&apos; commitment to reaching the broadest possible audience. The original Hades found tremendous success on Nintendo Switch, and early signs suggest Hades2 is following a similar trajectory with even greater momentum.
             </p>
 
             <h2>Community Response and Critical Reception</h2>
