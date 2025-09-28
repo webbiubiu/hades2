@@ -21,9 +21,9 @@ export default function BlogPage() {
       {/* Page Header */}
       <div className="pt-20 pb-8 bg-black">
         <div className="content-container">
-          <h1 className="text-4xl font-bold text-white text-center mb-4">Latest Hades2 News</h1>
+          <h1 className="text-4xl font-bold text-white text-center mb-4">Latest Hades 2 News</h1>
           <p className="text-lg text-gray-300 text-center max-w-2xl mx-auto">
-            Stay updated with the latest Hades2 news, guides, and community content
+            Stay updated with the latest Hades 2 news, guides, and community content
           </p>
         </div>
       </div>

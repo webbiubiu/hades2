@@ -50,14 +50,14 @@ export default function Home() {
                 href="/about" 
                 className="gaming-btn gaming-btn-secondary"
               >
-                Learn More About Hades2
+                Learn More About Hades 2
               </Link>
             </div>
           </div>
           <div className="gaming-hero-image">
             <Image
               src={gameConfig.images.hero}
-              alt="Hades2 Hero"
+              alt="Hades 2 Hero"
               width={350}
               height={280}
               priority
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Video Showcase Section */}
       <VideoShowcase 
-        title="Hades2 – v1.0 Launch Trailer"
+        title="Hades 2 – v1.0 Launch Trailer"
         description="Experience the epic return to the Underworld in this official launch trailer"
         videoId="U8lJRcUeEMs"
       />
@@ -83,6 +83,7 @@ export default function Home() {
               <CharacterCard
                 key={index}
                 name={character.name}
+                displayName={character.displayName}
                 title={character.title}
                 description={character.description}
                 image={character.image}
@@ -92,7 +93,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-8">
             <p className="text-gray-300 mb-4">
-              Discover the expanded cast of gods, heroes, and mythological figures in Hades2
+              Discover the expanded cast of gods, heroes, and mythological figures in Hades 2
             </p>
           </div>
         </div>
@@ -107,7 +108,7 @@ export default function Home() {
               <div className="feature-icon mb-4">🎮</div>
               <h3 className="gaming-card-title">Official Launch</h3>
               <p className="gaming-card-content">
-                Supergiant Games has officially launched Hades2, the highly anticipated sequel. Hades2 v1.0 launches worldwide on <span className="text-orange-500 font-semibold">September 25, 2025</span>, bringing the full mythic adventure to Nintendo Switch, Switch 2, Steam, and Epic Games Store.
+                Supergiant Games has officially launched Hades 2, the highly anticipated sequel. Hades 2 v1.0 launches worldwide on <span className="text-orange-500 font-semibold">September 25, 2025</span>, bringing the full mythic adventure to Nintendo Switch, Switch 2, Steam, and Epic Games Store.
               </p>
             </div>
 
@@ -115,7 +116,7 @@ export default function Home() {
               <div className="feature-icon mb-4">⚔️</div>
               <h3 className="gaming-card-title">Enhanced Gameplay</h3>
               <p className="gaming-card-content">
-                Building on the original&apos;s strengths, Hades2 introduces an expanded world of Greek mythology, featuring <span className="text-orange-500 font-semibold">Melinoë</span> as the lead protagonist. Players will tackle the Titan of Time, explore new areas, and unlock dozens of story events.
+                Building on the original&apos;s strengths, Hades 2 introduces an expanded world of Greek mythology, featuring <span className="text-orange-500 font-semibold">Melinoë</span> as the lead protagonist. Players will tackle the Titan of Time, explore new areas, and unlock dozens of story events.
               </p>
             </div>
 
@@ -123,7 +124,7 @@ export default function Home() {
               <div className="feature-icon mb-4">🚀</div>
               <h3 className="gaming-card-title">Technical Excellence</h3>
               <p className="gaming-card-content">
-                Features cross-save support between platforms. Hades2 on Switch 2 supports blazing-fast <span className="text-orange-500 font-semibold">120fps at 1080p</span> in TV mode, while original Switch maintains 60fps at 720p.
+                Features cross-save support between platforms. Hades 2 on Switch 2 supports blazing-fast <span className="text-orange-500 font-semibold">120fps at 1080p</span> in TV mode, while original Switch maintains 60fps at 720p.
               </p>
             </div>
 
@@ -156,7 +157,7 @@ export default function Home() {
       {/* Latest Blog */}
       <section className="gaming-section gaming-section-dark">
         <div className="content-container">
-          <h2 className="gaming-section-title">Hades2 News</h2>
+          <h2 className="gaming-section-title">Hades 2 News</h2>
           <div className="gaming-grid gaming-grid-3">
             {gameConfig.sampleContent.blogPosts
               .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -229,23 +230,23 @@ export default function Home() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Is Hades2 in Early Access?",
+                "name": "Is Hades 2 in Early Access?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "No, Hades2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features."
+                  "text": "No, Hades 2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features."
                 }
               },
               {
                 "@type": "Question",
-                "name": "When does Hades2 come out?",
+                "name": "When does Hades 2 come out?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Hades2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms."
+                  "text": "Hades 2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms."
                 }
               },
               {
                 "@type": "Question",
-                "name": "How to use Change of Fate in Hades2?",
+                "name": "How to use Change of Fate in Hades 2?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using Fate Fragments. Select different paths to modify upcoming encounters, boons, or rewards. It's essential for strategic planning in challenging runs."
@@ -253,7 +254,7 @@ export default function Home() {
               },
               {
                 "@type": "Question",
-                "name": "How to get Bronze in Hades2?",
+                "name": "How to get Bronze in Hades 2?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Bronze is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld's mining areas and look for glowing bronze deposits. It's used for weapon upgrades and crafting."
@@ -261,7 +262,7 @@ export default function Home() {
               },
               {
                 "@type": "Question",
-                "name": "Where to get Bronze in Hades2?",
+                "name": "Where to get Bronze in Hades 2?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Bronze can be found in Erebus chambers, Mining locations in the Underworld, and as drops from Armored enemies. The Crossroads also has mining spots. Use your pickaxe tool to extract bronze from ore veins."
@@ -269,7 +270,7 @@ export default function Home() {
               },
               {
                 "@type": "Question",
-                "name": "How to get Dark in Hades2?",
+                "name": "How to get Dark in Hades 2?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Psyche (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It's the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts."
@@ -287,42 +288,42 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="gaming-grid gaming-grid-auto gap-6">
               <div className="gaming-card">
-                <h3 className="gaming-card-title">Is Hades2 in Early Access?</h3>
+                <h3 className="gaming-card-title">Is Hades 2 in Early Access?</h3>
                 <p className="gaming-card-content">
-                  No, Hades2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features.
+                  No, Hades 2 has officially exited Early Access and launched its full v1.0 release on September 25, 2025. Early Access players automatically receive the complete version with all new content and features.
                 </p>
               </div>
 
               <div className="gaming-card">
-                <h3 className="gaming-card-title">When does Hades2 come out?</h3>
+                <h3 className="gaming-card-title">When does Hades 2 come out?</h3>
                 <p className="gaming-card-content">
-                  Hades2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms.
+                  Hades 2 v1.0 officially launched worldwide on September 25, 2025, available on PC (Steam, Epic Games Store), Nintendo Switch, Nintendo Switch 2, PlayStation, and Xbox platforms.
                 </p>
               </div>
 
               <div className="gaming-card">
-                <h3 className="gaming-card-title">How to use Change of Fate in Hades2?</h3>
+                <h3 className="gaming-card-title">How to use Change of Fate in Hades 2?</h3>
                 <p className="gaming-card-content">
                   Change of Fate allows you to alter your destiny during runs. Access it through the Altar of Fates using <strong>Fate Fragments</strong>. Select different paths to modify upcoming encounters, boons, or rewards. It&apos;s essential for strategic planning in challenging runs.
                 </p>
               </div>
 
               <div className="gaming-card">
-                <h3 className="gaming-card-title">How to get Bronze in Hades2?</h3>
+                <h3 className="gaming-card-title">How to get Bronze in Hades 2?</h3>
                 <p className="gaming-card-content">
                   <strong>Bronze</strong> is obtained by mining bronze ore nodes in various regions, defeating certain enemies, or completing specific chambers. Check the Underworld&apos;s mining areas and look for glowing bronze deposits. It&apos;s used for weapon upgrades and crafting.
                 </p>
               </div>
 
               <div className="gaming-card">
-                <h3 className="gaming-card-title">Where to get Bronze in Hades2?</h3>
+                <h3 className="gaming-card-title">Where to get Bronze in Hades 2?</h3>
                 <p className="gaming-card-content">
                   Bronze can be found in <strong>Erebus chambers</strong>, <strong>Mining locations</strong> in the Underworld, and as drops from <strong>Armored enemies</strong>. The Crossroads also has mining spots. Use your pickaxe tool to extract bronze from ore veins.
                 </p>
               </div>
 
               <div className="gaming-card">
-                <h3 className="gaming-card-title">How to get Dark in Hades2?</h3>
+                <h3 className="gaming-card-title">How to get Dark in Hades 2?</h3>
                 <p className="gaming-card-content">
                   <strong>Psyche</strong> (formerly Dark) is earned by completing runs, defeating bosses, and accomplishing various objectives. It&apos;s the primary currency for permanent upgrades at the Silver Pool. Collect it from defeated enemies and successful escape attempts.
                 </p>

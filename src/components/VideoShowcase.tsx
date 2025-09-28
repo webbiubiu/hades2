@@ -5,7 +5,7 @@ interface VideoShowcaseProps {
 }
 
 export default function VideoShowcase({ 
-  title = "Hades2 – v1.0 Launch Trailer", 
+  title = "Hades 2 – v1.0 Launch Trailer", 
   description = "Experience the epic return to the Underworld in this official launch trailer",
   videoId 
 }: VideoShowcaseProps) {

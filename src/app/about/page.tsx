@@ -22,7 +22,7 @@ export default function AboutPage() {
       {/* Page Header */}
       <div className="pt-20 pb-8 bg-black">
         <div className="content-container">
-          <h1 className="text-4xl font-bold text-white text-center mb-4">About Hades2</h1>
+          <h1 className="text-4xl font-bold text-white text-center mb-4">About Hades 2</h1>
           <p className="text-lg text-gray-300 text-center max-w-2xl mx-auto">
             Discover the epic mythological adventure that redefined the roguelike genre
           </p>
@@ -31,7 +31,7 @@ export default function AboutPage() {
 
       {/* Video Showcase */}
       <VideoShowcase 
-        title="Hades2 - v1.0 Gameplay Showcase"
+        title="Hades 2 - v1.0 Gameplay Showcase"
         description="Watch the official gameplay showcase and see the combat system in action"
         videoId="-SnaCUsUF3E"
       />
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <h2 className="gaming-section-title">Epic Return to the Underworld</h2>
           <div className="article-content">
             <p>
-              Hades2 marks the triumphant return to the mythological Underworld in this highly anticipated sequel 
+              Hades 2 marks the triumphant return to the mythological Underworld in this highly anticipated sequel 
               from Supergiant Games. Building upon the award-winning foundation of the original Hades, this roguelike 
               masterpiece introduces players to an entirely new chapter in Greek mythology, where ancient powers clash 
               and destinies are forged through divine combat.
@@ -51,7 +51,7 @@ export default function AboutPage() {
             <div className="text-center my-8">
               <Image
                 src="/images/hades2_apr24_01.webp"
-                alt="Hades2 Combat"
+                alt="Hades 2 Combat"
                 width={800}
                 height={450}
                 className="rounded-lg shadow-lg"
@@ -67,7 +67,7 @@ export default function AboutPage() {
 
             <h3>Revolutionized Roguelike Experience</h3>
             <p>
-              Hades2 elevates the roguelike formula to unprecedented heights, offering a perfect blend of strategic 
+              Hades 2 elevates the roguelike formula to unprecedented heights, offering a perfect blend of strategic 
               combat, narrative depth, and endless replayability. Each expedition into the dangerous realms reveals 
               new story elements, character interactions, and divine secrets that enrich the overall experience.
             </p>
@@ -91,7 +91,7 @@ export default function AboutPage() {
 
             <h3>Master the Arts of War and Magic</h3>
             <p>
-              The combat system in Hades2 has been completely reimagined to incorporate magical elements alongside 
+              The combat system in Hades 2 has been completely reimagined to incorporate magical elements alongside 
               traditional weaponry. Players can customize their playstyle through:
             </p>
             <ul>
@@ -128,7 +128,7 @@ export default function AboutPage() {
 
             <h3>Critical Acclaim</h3>
             <p>
-              Since its Early Access launch, Hades2 has garnered widespread praise from critics and players alike. 
+              Since its Early Access launch, Hades 2 has garnered widespread praise from critics and players alike. 
               Major gaming publications have consistently highlighted the game&apos;s exceptional quality:
             </p>
             <ul>
@@ -139,7 +139,7 @@ export default function AboutPage() {
 
             <h3>Technical Excellence</h3>
             <p>
-              Hades2 delivers a premium gaming experience across all supported platforms. The full v1.0 release 
+              Hades 2 delivers a premium gaming experience across all supported platforms. The full v1.0 release 
               includes cross-save functionality, ensuring your progress follows you whether you&apos;re playing on PC 
               or Nintendo Switch family consoles. The game runs at smooth 60fps on standard hardware while 
               supporting enhanced performance modes on newer systems.
@@ -147,14 +147,14 @@ export default function AboutPage() {
 
             <h3>The Complete Adventure Awaits</h3>
             <p>
-              With the official v1.0 launch on September 25, 2025, Hades2 presents the complete mythological 
+              With the official v1.0 launch on September 25, 2025, Hades 2 presents the complete mythological 
               adventure that fans have been eagerly anticipating. The full release includes the entire story 
               campaign, complete character arcs, numerous unlockable features, and extensive post-game content 
               that ensures hundreds of hours of engaging gameplay.
             </p>
 
             <p>
-              Whether you&apos;re a veteran of the original Hades or new to the series, Hades2 offers an 
+              Whether you&apos;re a veteran of the original Hades or new to the series, Hades 2 offers an 
               unforgettable journey through Greek mythology that seamlessly blends action, strategy, and 
               storytelling into one extraordinary gaming experience.
             </p>
@@ -203,7 +203,7 @@ export default function AboutPage() {
               <div className="timeline-date">May 6, 2024</div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Early Access Launch</h3>
-                <p>Hades2 launches in Early Access on Steam and Epic Games Store, beginning community-driven development phase.</p>
+                <p>Hades 2 launches in Early Access on Steam and Epic Games Store, beginning community-driven development phase.</p>
               </div>
             </div>
             
@@ -227,7 +227,7 @@ export default function AboutPage() {
               <div className="timeline-date">December 8, 2022</div>
               <div className="timeline-content">
                 <h3 className="timeline-title">Official Announcement</h3>
-                <p>Hades2 revealed at The Game Awards 2022, marking Supergiant Games&apos; first-ever sequel announcement.</p>
+                <p>Hades 2 revealed at The Game Awards 2022, marking Supergiant Games&apos; first-ever sequel announcement.</p>
               </div>
             </div>
           </div>

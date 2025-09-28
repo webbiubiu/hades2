@@ -37,7 +37,7 @@ export default function VideosPage() {
   const videos = [
     {
       id: '-SnaCUsUF3E',
-      title: 'Hades2 - v1.0 Gameplay Showcase',
+      title: 'Hades 2 - v1.0 Gameplay Showcase',
       description: 'Comprehensive gameplay showcase featuring combat, magic, and exploration in the full v1.0 release.',
       category: 'gameplay',
       duration: '8:30',
@@ -46,8 +46,8 @@ export default function VideosPage() {
     },
     {
       id: 'U8lJRcUeEMs',
-      title: 'Hades2 – v1.0 Launch Trailer',
-      description: 'Official launch trailer for Hades2 v1.0 showcasing the complete mythological adventure.',
+      title: 'Hades 2 – v1.0 Launch Trailer',
+      description: 'Official launch trailer for Hades 2 v1.0 showcasing the complete mythological adventure.',
       category: 'trailers',
       duration: '2:45',
       views: '3.2M views',
@@ -64,8 +64,8 @@ export default function VideosPage() {
     },
     {
       id: '2Gv0eQjJ-gY',
-      title: 'Hades2 - The Unseen Update Trailer',
-      description: 'The third Major Update for Hades2 featuring expanded core combat and Guardian encounters.',
+      title: 'Hades 2 - The Unseen Update Trailer',
+      description: 'The third Major Update for Hades 2 featuring expanded core combat and Guardian encounters.',
       category: 'trailers',
       duration: '3:30',
       views: '1.5M views',
@@ -73,7 +73,7 @@ export default function VideosPage() {
     },
     {
       id: 'yrpGYTlCjNQ',
-      title: 'Hades2 - The Warsong Update Trailer',
+      title: 'Hades 2 - The Warsong Update Trailer',
       description: 'The second Major Update featuring new encounters at the end of the surface route and Ares arrival.',
       category: 'trailers',
       duration: '3:45',
@@ -82,7 +82,7 @@ export default function VideosPage() {
     },
     {
       id: 'WH3jT53hIYM',
-      title: 'Hades2 - The Olympic Update Trailer',
+      title: 'Hades 2 - The Olympic Update Trailer',
       description: 'The first Major Update featuring spectacular new places to explore and colorful new characters.',
       category: 'trailers',
       duration: '4:10',
@@ -91,7 +91,7 @@ export default function VideosPage() {
     },
     {
       id: 'Miu_akSity4',
-      title: 'Hades2 - Early Access Showcase',
+      title: 'Hades 2 - Early Access Showcase',
       description: 'Early Access showcase revealing the game mechanics and world before the full release.',
       category: 'gameplay',
       duration: '15:20',
@@ -100,8 +100,8 @@ export default function VideosPage() {
     },
     {
       id: 'l-iHDj3EwdI',
-      title: 'Hades2 - Reveal Trailer',
-      description: 'The very first reveal trailer that introduced the world to Hades2 and Melinoë.',
+      title: 'Hades 2 - Reveal Trailer',
+      description: 'The very first reveal trailer that introduced the world to Hades 2 and Melinoë.',
       category: 'trailers',
       duration: '2:30',
       views: '6.5M views',
@@ -109,7 +109,7 @@ export default function VideosPage() {
     },
     {
       id: '9gp_6AoaRh8',
-      title: 'Hades2 - Official Nintendo Switch 2 Edition Launch Trailer',
+      title: 'Hades 2 - Official Nintendo Switch 2 Edition Launch Trailer',
       description: 'Official trailer for the Nintendo Switch 2 edition featuring enhanced performance and features.',
       category: 'trailers',
       duration: '1:45',

@@ -63,7 +63,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         return {
           content: `
             <h2>The Wait is Over</h2>
-            <p>After months of anticipation, Hades2 v1.0 has officially launched worldwide on September 25, 2025. This complete release brings the full mythic adventure that fans have been eagerly awaiting.</p>
+            <p>After months of anticipation, Hades 2 v1.0 has officially launched worldwide on September 25, 2025. This complete release brings the full mythic adventure that fans have been eagerly awaiting.</p>
             
             <h2>What's New in v1.0</h2>
             <ul>
@@ -73,9 +73,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
             </ul>
 
             <h2>Platform Features</h2>
-            <p>The launch includes cross-save support between PC and Nintendo Switch family platforms. Hades2 on Switch 2 supports an impressive 120fps at 1080p in TV mode.</p>
+            <p>The launch includes cross-save support between PC and Nintendo Switch family platforms. Hades 2 on Switch 2 supports an impressive 120fps at 1080p in TV mode.</p>
           `,
-          author: 'Hades2 News Team',
+          author: 'Hades 2 News Team',
           readTime: '5 min read'
         }
       case 'melinoe-witchcraft-guide':
@@ -104,7 +104,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         return {
           content: `
             <h2>The Nocturnal Arms</h2>
-            <p>Hades2 introduces the Nocturnal Arms, a new collection of weapons specifically designed for Melinoë's combat style. Each weapon offers unique mechanics and upgrade paths.</p>
+            <p>Hades 2 introduces the Nocturnal Arms, a new collection of weapons specifically designed for Melinoë's combat style. Each weapon offers unique mechanics and upgrade paths.</p>
             
             <h2>Available Weapon Types</h2>
             <ul>

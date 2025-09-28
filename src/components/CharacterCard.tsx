@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 interface CharacterCardProps {
   name: string
+  displayName?: string
   title: string
   description: string
   image: string
@@ -12,7 +13,7 @@ interface CharacterCardProps {
   className?: string
 }
 
-export default function CharacterCard({ name, title, description, image, fullImage, className = "" }: CharacterCardProps) {
+export default function CharacterCard({ name, displayName, title, description, image, fullImage, className = "" }: CharacterCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
@@ -33,8 +34,8 @@ export default function CharacterCard({ name, title, description, image, fullIma
             />
           </div>
           <div className="character-name">
-            <span className="character-label">HADES2</span>
-            <span className="character-title">{name}</span>
+            <span className="character-label">HADES 2</span>
+            <span className="character-title">{displayName || name}</span>
           </div>
         </div>
       </div>
@@ -63,7 +64,7 @@ export default function CharacterCard({ name, title, description, image, fullIma
                 />
               </div>
               <div className="character-modal-info">
-                <h2 className="character-modal-name">{name}</h2>
+                <h2 className="character-modal-name">{displayName || name}</h2>
                 <h3 className="character-modal-title">{title}</h3>
                 <p className="character-modal-description">{description}</p>
               </div>
