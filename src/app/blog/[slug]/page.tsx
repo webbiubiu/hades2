@@ -7,9 +7,9 @@ import { gameConfig, getCanonicalUrl } from '@/config/gameConfig'
 import type { Metadata } from 'next'
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 // 静态生成所有博客页面
@@ -21,8 +21,9 @@ export async function generateStaticParams() {
 
 // 生成动态元数据
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params
   const post = gameConfig.sampleContent.blogPosts.find(
-    (post) => post.slug === params.slug
+    (post) => post.slug === slug
   )
 
   if (!post) {
@@ -47,9 +48,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params
   const post = gameConfig.sampleContent.blogPosts.find(
-    (post) => post.slug === params.slug
+    (post) => post.slug === slug
   )
 
   if (!post) {
@@ -123,6 +125,30 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           author: 'Combat Expert',
           readTime: '10 min read'
         }
+      case 'hades-2-new-benchmark-roguelikes':
+        return {
+          content: `
+            <h2>Comprehensive Improvements and Deep Content</h2>
+            <p>As the official sequel to Hades, Hades 2 builds thoroughly on its predecessor's strengths. Combat mechanics, storytelling, and social webs are all more mature and nuanced. New weapons and systems inject a fresh feel into every adventure; resource management and satisfying battle rhythms lead to dozens of hours of captivating gameplay.</p>
+            
+            <p>GameSpot's reviewer notes the game's core charm lies in its balance between storytelling and mechanics. Whether experiencing the world for the first time or as a battle-hardened Hades veteran, every player finds something to love here. Ambitious world-building and layer-upon-layer of progression show Supergiant Games at the very peak of roguelike design.</p>
+
+            <h2>For Newcomers and Challenge Seekers Alike</h2>
+            <p>Hades 2's narrative naturally integrates all player choices into the main story, with growth and world changes tightly interwoven. Even without playing the original, newcomers can enjoy a standalone adventure. For hardcore fans, massive new content and expanded systems offer depth and variety for endless exploration.</p>
+            
+            <p>The game successfully maintains the accessibility that made the original so beloved while introducing enough complexity to satisfy veteran players. Melinoë's magical abilities and the expanded underworld create fresh strategic possibilities that keep each run feeling unique and engaging.</p>
+
+            <h2>Near-Universal Acclaim</h2>
+            <p>GameSpot's "no clear flaws" echoes industry consensus: every design element is top-tier. From world-building and character writing to action and soundtrack, every corner of the experience is crafted with care. Players agree Hades 2 finds the perfect balance between thematic depth, engaging mechanics, and pure fun.</p>
+            
+            <p>The critical reception has been overwhelmingly positive across the board. Major gaming outlets have praised not just the technical improvements, but the way Hades 2 manages to honor its predecessor while carving out its own distinct identity.</p>
+
+            <h2>A New Milestone for the Genre</h2>
+            <p>Hades 2 is, without question, one of 2025's must-play action roguelikes. It stands out as both a sweeping upgrade over the original and a new milestone for the entire genre. The game's achievement goes beyond just being a great sequel—it has redefined what players can expect from the roguelike genre.</p>
+          `,
+          author: 'Game Review Team',
+          readTime: '4 min read'
+        }
       default:
         return {
           content: '<p>Content not found.</p>',
@@ -132,7 +158,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
     }
   }
 
-  const postContent = getPostContent(post.slug)
+  const postContent = getPostContent(slug)
 
   return (
     <main className="blog-article">

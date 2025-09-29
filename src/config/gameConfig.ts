@@ -246,6 +246,13 @@ export const gameConfig = {
         image: "/images/H2_Olympic_NoLogo_4K.webp",
         date: "September 27, 2025",
         slug: "hades-2-full-release-record-breaking-launch"
+      },
+      {
+        title: "Hades 2: A New Benchmark for Roguelikes",
+        excerpt: "Since its release, Hades 2 has captured the attention of countless gamers and media outlets. Recently, Gamespot's perfect 10/10 score has further ignited passionate discussions.",
+        image: "/images/Hades2_Key_Art.webp",
+        date: "September 29, 2025",
+        slug: "hades-2-new-benchmark-roguelikes"
       }
     ],
     videos: [
